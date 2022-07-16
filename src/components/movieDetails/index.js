@@ -96,3 +96,4 @@ const MovieDetails = ( {movie}) => {
   );
 };
 export default  MovieDetails ;
+
