@@ -42,10 +42,9 @@ const SiteHeader = () => {
   const open = Boolean(anchorEl);
   const menuOptions = [
     { label: "Home", path: "/" },
-    { label: "Upcoming", path: "/movies/upcoming" },
     { label: "Favourites", path: "/movies/favourites" },
-    { label: "Option 3", path: "/" },
-    { label: "Option 4", path: "/" },
+    { label: "Upcoming", path: "/movies/upcoming" },
+    { label: "Must Watch", path: "/movies/mustwatch" },
   ];
 
   const handleMenuSelect = (pageURL) => {

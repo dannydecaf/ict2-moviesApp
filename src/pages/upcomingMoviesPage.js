@@ -17,7 +17,6 @@ const UpcomingMoviesPage = (props) => {
   }  
   const movies = data.results;
 
-  const addToFavourites = () => null;
 
   return (
     <PageTemplate
